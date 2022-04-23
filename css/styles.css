@@ -15,7 +15,7 @@ a:hover {
   text-decoration: underline; }
 
 .banner {
-  background-image: linear-gradient(#e64a1a, #3015ab, #dada3e); }
+  background-image: linear-gradient(#e64a1a, #3015ab); }
 
 .site-footer {
   background-image: linear-gradient(#e64a1a, white);

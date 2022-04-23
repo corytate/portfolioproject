@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-sm navbar-light sticky-top">
             <div class="container">
                 
-                <a class="navbar-brand" href="#"><i class="fa-solid fa-m"></i></a>
+                <a class="navbar-brand" href="#"><i class="fa fa-solid fa-m text-white"></i></a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meliksNavbar">
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#meliksNavbar">
@@ -35,10 +35,60 @@
                         <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa fa-info fa-lg"></i> Menu</a></li>
                         <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                     </ul>
+                    <span class="navbar-text ml-auto">
+                        <a role="button" id="reserveButton">
+                            <i class="fa fa-calendar"></i> Reservations
+                        </a>
+                    </span>
                 </div>
             </div>
-        </nav>
+        </nav>    
+        <div id="reserveModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Make a Reservation</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form id="reserveForm">
+                                <div class="row form-group">
+                                    <label for="numGuests" class="col-sm-6 col-form-label">Number of Guests</label>
+                                    <div class="col">
+                                        <select class="form-control" name="numGuests" id="numGuests">Select...
+                                            <option selected>Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">6</option>
+                                            <option value="8">8</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                        <label class="col-sm-6 col-form-label" for="date">Date</label>
+                                    <div class="col">
+                                        <input class="form-control" type="date" id="date" name="date" placeholder="x">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <button class="btn btn-secondary" type="cancel" data-dismiss="modal">Cancel</button>
+                                        <button class="btn btn-primary" type="submit" href="#">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        
         
     <footer>
         <div class="container">
