@@ -2,13 +2,10 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
-  font-family: "Lobster", cursive; }
-
-h2 {
-  color: #3046C5; }
+  font-family: "Lobster"; }
 
 header h2 {
-  color: #CEC8FF; }
+  opacity: 66%; }
 
 a {
   text-decoration: none; }
@@ -17,18 +14,19 @@ a:hover {
   color: darkgrey;
   text-decoration: underline; }
 
+.banner {
+  background-image: linear-gradient(#e64a1a, #3015ab, #dada3e); }
+
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(#e64a1a, white);
   padding: 20px 0; }
 
 .navbar {
-  background-color: #901CAD; }
+  background-image: linear-gradient(#dada3e, white);
+  opacity: 77%; }
 
 .jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  color: white; }
+  margin: 0; }
 
 .row-content {
   padding: 50px 0;
@@ -39,4 +37,4 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637dd; }
+  border: solid #3015ab; }

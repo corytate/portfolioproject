@@ -1,13 +1,13 @@
-$color-primary: #3046C5;
-$color-secondary: #5637dd;
+$color-primary: #e64a1a;
+$color-secondary: #3015ab;
+$color-terciary: #dada3e;
 $color-pale: #CEC8FF;
-$color-mid: #901CAD;
+$color-mid: #d0d039;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-$color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
+$header-font: "Lobster";
 
 body {
     font-family: $body-font;
@@ -17,13 +17,10 @@ h1, h2, h3 {
     font-family: $header-font;
 }
 
-h2 {
-    color: $color-primary;
-}
 
 header {
     h2 {
-        color: $color-pale;
+        opacity: 66%;
     }
 }
 
@@ -36,20 +33,22 @@ a:hover {
     text-decoration: underline;
 }
 
+.banner {
+    background-image: linear-gradient($color-primary, $color-secondary, $color-terciary);
+}
+
 .site-footer {
-    background-image: linear-gradient($color-pale, white);
+    background-image: linear-gradient($color-primary, white);
     padding: 20px 0;
 }
 
 .navbar {
-    background-color: $color-mid;
+    background-image: linear-gradient($color-terciary, white);
+    opacity: 77%;
 }
 
 .jumbotron {
     margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-    color: white;
 }
 
 .row-content {
