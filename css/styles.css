@@ -14,15 +14,18 @@ a:hover {
   color: darkgrey;
   text-decoration: underline; }
 
+footer {
+  margin-top: 100px; }
+
 .banner {
-  background-image: linear-gradient(#e64a1a, #3015ab); }
+  background-image: linear-gradient(lightgrey, #3015ab); }
 
 .site-footer {
   background-image: linear-gradient(#e64a1a, white);
   padding: 20px 0; }
 
 .navbar {
-  background-image: linear-gradient(#dada3e, white);
+  background-image: linear-gradient(#e64a1a, #dada3e);
   opacity: 77%; }
 
 .jumbotron {
@@ -38,3 +41,6 @@ a:hover {
 
 .carousel {
   border: solid #3015ab; }
+
+.foodpic {
+  height: 25rem; }

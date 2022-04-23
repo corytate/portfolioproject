@@ -33,8 +33,12 @@ a:hover {
     text-decoration: underline;
 }
 
+footer {
+    margin-top: 100px;
+}
+
 .banner {
-    background-image: linear-gradient($color-primary, $color-secondary);
+    background-image: linear-gradient(lightgrey, $color-secondary);
 }
 
 .site-footer {
@@ -43,7 +47,7 @@ a:hover {
 }
 
 .navbar {
-    background-image: linear-gradient($color-terciary, white);
+    background-image: linear-gradient($color-primary, $color-terciary);
     opacity: 77%;
 }
 
@@ -63,4 +67,8 @@ a:hover {
 
 .carousel {
     border: solid $color-secondary;
+}
+
+.foodpic {
+    height: 25rem;
 }
