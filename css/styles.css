@@ -42,5 +42,8 @@ footer {
 .carousel {
   border: solid #3015ab; }
 
-.foodpic {
-  height: 25rem; }
+.contactcard {
+  margin: 100 25; }
+
+.headingcontent {
+  text-align: center; }
